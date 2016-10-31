@@ -3,7 +3,7 @@
 //header('Content-type: application/x-javascript');
     function connect()  
     {
-        $conx = new mysqli("127.0.0.1", "root", "","sarra_salima") ;
+        $conx = new mysqli("ex-std-node627.prod.rhcloud.com", "adminnN46Fi1", "SCf_2SnqWpi1","epost") ;
         if(mysqli_connect_errno()){
                  die("Error connection");
         }
