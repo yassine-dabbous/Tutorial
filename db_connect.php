@@ -4,7 +4,7 @@
     function connect()  
     {
         //$conx = new mysqli(getenv('OPENSHIFT_MYSQL_DB_HOST'), "adminnN46Fi1", "SCf_2SnqWpi1","epost") ;
-        $conx = new mysqli(getenv('OPENSHIFT_MYSQL_DB_HOST'), getenv('OPENSHIFT_MYSQL_DB_USERNAME'), getenv('OPENSHIFT_MYSQL_DB_PASSWORD'), "epost" , getenv('OPENSHIFT_MYSQL_DB_PORT'));
+        $conx = new mysqli(getenv('OPENSHIFT_MYSQL_DB_HOST'), getenv('OPENSHIFT_MYSQL_DB_USERNAME'), getenv('OPENSHIFT_MYSQL_DB_PASSWORD'), "eposte2" , getenv('OPENSHIFT_MYSQL_DB_PORT'));
         
         if(mysqli_connect_errno()){
                  die("Error connection");
